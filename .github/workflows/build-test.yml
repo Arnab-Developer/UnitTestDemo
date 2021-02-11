@@ -1,0 +1,28 @@
+name: build test
+
+on:  
+  push:
+    branches: [ main ]
+
+jobs:
+  build-test-deploy:
+    
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.101
+    
+    - name: Restore dependencies
+      run: dotnet restore UnitTestDemo.sln
+    
+    - name: Build
+      run: dotnet build UnitTestDemo.sln --configuration Release --no-restore
+    
+    - name: Test
+      run: dotnet test UnitTestDemo.sln --verbosity normal --configuration Release
