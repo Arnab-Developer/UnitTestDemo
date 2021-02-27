@@ -3,26 +3,22 @@ name: CI
 on:  
   push:
     branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
-  build-test:
-    
-    runs-on: windows-latest
-    
+  build-test:    
+    runs-on: ubuntu-latest    
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
-      
+      uses: actions/checkout@v2      
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 5.0.101
-    
+        dotnet-version: 5.0.101    
     - name: Restore dependencies
-      run: dotnet restore UnitTestDemo.sln
-    
+      run: dotnet restore UnitTestDemo.sln    
     - name: Build
-      run: dotnet build UnitTestDemo.sln --configuration Release --no-restore
-    
+      run: dotnet build UnitTestDemo.sln --configuration Release --no-restore    
     - name: Test
       run: dotnet test UnitTestDemo.sln --verbosity normal --configuration Release
