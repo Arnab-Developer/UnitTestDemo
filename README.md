@@ -1,6 +1,6 @@
 # Unit test demo
 
-![build test](https://github.com/Arnab-Developer/UnitTestDemo/workflows/build%20test/badge.svg)
+[![CI](https://github.com/Arnab-Developer/UnitTestDemo/actions/workflows/ci.yml/badge.svg)](https://github.com/Arnab-Developer/UnitTestDemo/actions/workflows/ci.yml)
 
 Unit test demo with ASP.NET 5.
 
