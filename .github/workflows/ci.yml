@@ -21,4 +21,4 @@ jobs:
     - name: Build
       run: dotnet build UnitTestDemo.sln --configuration Release --no-restore    
     - name: Test
-      run: dotnet test UnitTestDemo.sln --verbosity normal --configuration Release
+      run: dotnet test UnitTestDemo.sln --configuration Release
