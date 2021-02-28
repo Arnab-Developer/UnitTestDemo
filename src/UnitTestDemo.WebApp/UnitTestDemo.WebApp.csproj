@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GitHubWorkflow.Lib\UnitTestDemo.Lib.csproj" />
+    <ProjectReference Include="..\UnitTestDemo.Lib\UnitTestDemo.Lib.csproj" />
   </ItemGroup>
 
 </Project>

@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestDemo.Lib", "src\GitHubWorkflow.Lib\UnitTestDemo.Lib.csproj", "{90070615-4096-49DE-8A55-56253A787423}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestDemo.Lib", "src\UnitTestDemo.Lib\UnitTestDemo.Lib.csproj", "{90070615-4096-49DE-8A55-56253A787423}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestDemo.LibTest", "tests\GitHubWorkflow.LibTest\UnitTestDemo.LibTest.csproj", "{486BECE6-330D-46D7-AB86-E5B16E6C8A12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestDemo.LibTest", "tests\UnitTestDemo.LibTest\UnitTestDemo.LibTest.csproj", "{486BECE6-330D-46D7-AB86-E5B16E6C8A12}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestDemo.WebApp", "src\GitHubWorkflow.WebApp\UnitTestDemo.WebApp.csproj", "{747F6361-3DBA-453C-BA36-C64F3499D44D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestDemo.WebApp", "src\UnitTestDemo.WebApp\UnitTestDemo.WebApp.csproj", "{747F6361-3DBA-453C-BA36-C64F3499D44D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestDemo.WebAppTest", "tests\GitHubWorkflow.WebAppTest\UnitTestDemo.WebAppTest.csproj", "{779DFBDF-86AF-4433-83F9-2F9C650B7652}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestDemo.WebAppTest", "tests\UnitTestDemo.WebAppTest\UnitTestDemo.WebAppTest.csproj", "{779DFBDF-86AF-4433-83F9-2F9C650B7652}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B9105C99-9EA9-4735-B757-C492CECC7776}"
 EndProject
