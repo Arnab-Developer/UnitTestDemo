@@ -1,7 +1,5 @@
 # Unit test demo
 
-[![CI](https://github.com/Arnab-Developer/UnitTestDemo/actions/workflows/ci.yml/badge.svg)](https://github.com/Arnab-Developer/UnitTestDemo/actions/workflows/ci.yml)
-
 Unit test demo with ASP.NET 5.
 
 ## Tech stack
